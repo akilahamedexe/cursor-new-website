@@ -1,9 +1,20 @@
 ## Cursor Cloud specific instructions
 
-This repository ("Cursor new website") is currently an empty skeleton with only a `README.md`. There is no application code, build system, dependency manifest, or test infrastructure as of the initial commits.
+This repository contains a Vite + React website inside the `swym/` directory.
 
-Once application code and a dependency manifest (e.g. `package.json`) are added, the VM update script and these instructions should be revised to cover:
-- Dependency installation commands
-- Dev server startup
-- Lint, test, and build commands
-- Any required environment variables or secrets
+## Dependency installation
+
+- `cd swym && npm install`
+
+## Dev server
+
+- `cd swym && npm run dev -- --host 0.0.0.0 --port 5173`
+
+## Lint / build
+
+- `cd swym && npm run lint`
+- `cd swym && npm run build`
+
+## Environment variables / secrets
+
+None required currently.
