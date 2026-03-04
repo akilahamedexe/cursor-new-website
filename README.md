@@ -1,12 +1,19 @@
-# SWYM Agency Website
+# SWYM Agency Website (by AST Solutions)
 
-Premium one-page creative/digital marketing website for **SWYM (Dubai, UAE)**, inspired by modern agency layouts with:
+Premium one-page creative/digital marketing website for **SWYM by AST Solutions (Dubai, UAE)**, inspired by modern agency layouts with:
 
 - Bold hero section and dark visual system
 - Services, work, process, and testimonials sections
 - Interactive testimonial slider
 - Responsive mobile navigation
-- Contact form with client-side success feedback
+- Web3Forms-powered contact form submission
+- Direct WhatsApp and Google Maps contact links
+
+Includes current client references:
+
+- My Desert Spring Water
+- SUPER GYM
+- LIMS Catering
 
 ## Run locally
 
