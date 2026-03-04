@@ -1,0 +1,17 @@
+.DS_Store
+node_modules
+dist
+.env
+.env.*
+
+# Vite / TS
+swym/node_modules
+swym/dist
+swym/.vite
+swym/*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
