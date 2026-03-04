@@ -2,7 +2,10 @@
 node_modules
 dist
 .env
-.env.*
+.env.local
+.env.*.local
+!.env.example
+!**/.env.example
 
 # Vite / TS
 swym/node_modules
