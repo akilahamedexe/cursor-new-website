@@ -1,1 +1,1 @@
-# New website
+# Cursor new website
