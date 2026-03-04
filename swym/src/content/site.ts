@@ -12,6 +12,12 @@ export const agency = {
   location: 'Dubai, UAE',
   parent: 'AST Solutions',
   clients: ['My Desert Spring Water', 'SUPER GYM', 'LIMS Catering'],
+  whatsapp: {
+    e164: '+971529014052',
+    display: '+971 52 901 4052',
+    waLink: 'https://wa.me/971529014052',
+  },
+  mapLink: 'https://maps.app.goo.gl/63CBTQ2G1Fx2B2WD7',
   positioning:
     'Creative & digital marketing for brands that want to stand out and scale — strategy, content, and performance built to convert.',
 }

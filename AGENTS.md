@@ -17,4 +17,6 @@ This repository contains a Vite + React website inside the `swym/` directory.
 
 ## Environment variables / secrets
 
-None required currently.
+Optional:
+
+- `VITE_WEB3FORMS_ACCESS_KEY` (enables Web3Forms submission on the Contact page; set via `swym/.env.local`).

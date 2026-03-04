@@ -1,4 +1,4 @@
-import { Menu, X } from 'lucide-react'
+import { Menu, MessageCircle, X } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { agency, nav } from '../content/site'
@@ -49,6 +49,16 @@ export default function Header() {
           </nav>
 
           <div className="hidden items-center gap-3 md:flex">
+            <a
+              href={agency.whatsapp.waLink}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-full p-2 text-zinc-200 hover:bg-white/5 ring-1 ring-white/10 transition"
+              aria-label="Chat on WhatsApp"
+              title={`WhatsApp ${agency.whatsapp.display}`}
+            >
+              <MessageCircle className="size-5" />
+            </a>
             <ButtonLink to="/contact" variant="secondary">
               Start a project
             </ButtonLink>
@@ -84,7 +94,15 @@ export default function Header() {
                   {item.label}
                 </NavLink>
               ))}
-              <div className="pt-2">
+              <div className="grid gap-3 pt-2">
+                <a
+                  href={agency.whatsapp.waLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium bg-white/5 text-white ring-1 ring-white/10 hover:bg-white/10 transition"
+                >
+                  <MessageCircle className="size-4" /> WhatsApp
+                </a>
                 <ButtonLink to="/contact" variant="primary" className="w-full">
                   Start a project
                 </ButtonLink>

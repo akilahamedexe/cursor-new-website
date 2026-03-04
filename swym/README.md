@@ -7,6 +7,12 @@ Premium, conversion-focused digital marketing website for **SWYM** (Dubai, UAE),
 - `npm install`
 - `npm run dev`
 
+## Contact form (Web3Forms)
+
+Create `.env.local`:
+
+- `VITE_WEB3FORMS_ACCESS_KEY=...`
+
 ## Quality checks
 
 - `npm run lint`

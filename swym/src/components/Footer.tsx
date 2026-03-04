@@ -1,3 +1,4 @@
+import { ExternalLink, MessageCircle } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
 import { agency, nav } from '../content/site'
 import Container from './Container'
@@ -23,6 +24,22 @@ export default function Footer() {
                   {item.label}
                 </NavLink>
               ))}
+              <a
+                href={agency.whatsapp.waLink}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-zinc-300 hover:text-white"
+              >
+                <MessageCircle className="size-4" /> WhatsApp <ExternalLink className="size-3 opacity-70" />
+              </a>
+              <a
+                href={agency.mapLink}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-zinc-300 hover:text-white"
+              >
+                Dubai map <ExternalLink className="size-3 opacity-70" />
+              </a>
             </div>
           </div>
 
